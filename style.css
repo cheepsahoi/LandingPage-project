@@ -30,38 +30,3 @@ body {
     font-size: 24px;
 }
 
-.hero-section {
-    border: 1px solid red;
-    display: flex;
-    flex-flow: row nowrap;
-    margin: 50px 0;
-}
-
-.hero-text {
-    display: flex;
-    flex-flow: column wrap;
-    border: 1px solid blue;
-    width: 45%;
-    align-content: center;
-}
-
-.hero-title {
-    font-weight: bolder;
-    font-size: 48px;
-    color: #F9FAF8;
-    width: 300px;
-}
-
-.hero-message {
-
-}
-
-#image {
-    display: flex;
-    height: 20em;
-    padding-left: 10em;
-}
-
-button {
-    width: 5em;
-}
