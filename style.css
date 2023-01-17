@@ -86,12 +86,14 @@ body {
 }
 
 .information ul {
+    border: 1px solid red;
     display: flex;
     padding: 0;
-    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    min-width: 900px;
     gap: 100px;
     list-style-type: none;
-    align-content: center;
+    justify-content: center;
     margin-bottom: 100px;
 }
 
