@@ -54,10 +54,10 @@ body {
 }
 
 .hero-section .image {
+    object-fit: cover;
     display: flex;
-    min-width: 50%;
-    border: 1px solid red;
-    background-color: pink;
+    min-width: 350px;
+    max-height: 250px;
 }
 
 .hero-section button {
@@ -86,7 +86,6 @@ body {
 }
 
 .information ul {
-    border: 1px solid red;
     display: flex;
     padding: 0;
     flex-flow: row wrap;
@@ -105,7 +104,7 @@ body {
 .information .image {
     height: 150px;
     width: 150px;
-    border: 4px solid #3882f6;
+    /* border: 4px solid #3882f6; */
     border-radius: 25px;
 }
 
