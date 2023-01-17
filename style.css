@@ -146,6 +146,7 @@ body {
     align-content: flex-start;
     padding: 0 10%;
     height: 150px;
+    min-width: 750px;
     margin: 100px 0;
     background-color: #3882f6;
     gap: 5px;
